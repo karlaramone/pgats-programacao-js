@@ -33,13 +33,12 @@ function exibirNomePet(paramNomePet = 'valor padrao') {
   console.log(`O nome do pet é ${paramNomePet}`)
 }
 
-function exibirIdade(paramIdadePet) {
+/*function exibirIdade(paramIdadePet) {
   console.log(`Idade do Pet é ${paramIdadePet}`)
-}
+}*/
 
 //  export {} / import 
 export {
   exibirNomePet,
-  exibirIdade,
-  BRINQUEDOS
+
 }
